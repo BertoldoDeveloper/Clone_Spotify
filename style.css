@@ -26,8 +26,7 @@ body {
 
     .sidebar__navigation {
         background-color: #2c2c2c;
-        width: 100%;
-        border-radius: 8%;
+        border-radius: 6%;
         padding: 16px 0 0 16px;
 
         a img {
@@ -154,7 +153,38 @@ body {
             }
         }
 
-        
+        /* Estilizando o bloco dos 'cookies' */
+
+        .cokkies {
+            margin: 25px 20px;
+            
+            a {
+                color: #b3b3b3;
+                font-weight: 500;
+                font-size: 12px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        /* Estilizando o bloco do 'language' */
+
+        .languages {
+
+            .languages__button{
+                align-items: center;
+                background-color: transparent;
+                border: 1px solid #878787;
+                color: white;
+                font-weight: 700;
+                width: 170px;
+                margin: 8px;
+                padding: 8px;
+                cursor: pointer;
+            }
+        }
     }
 
 }
