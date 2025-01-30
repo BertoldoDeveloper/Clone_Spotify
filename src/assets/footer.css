@@ -17,7 +17,6 @@
         .footer__title {
             color: white;
             text-transform: uppercase;
-            font-family: "DM Sans", sans-serif;
             font-weight: 600;
             font-size: 16px;
             margin-bottom: 10px;
@@ -25,7 +24,6 @@
 
         .footer__subtitle {
             color: white;
-            font-family: "DM Sans", sans-serif;
             font-size: 16px;
             font-weight: 600;
         }    
